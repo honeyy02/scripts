@@ -18,3 +18,4 @@ with open(file) as file:
 for link in links:
     dir_name = get_repo_name(link)
     git.Repo.clone_from(link,dir_name)
+    
